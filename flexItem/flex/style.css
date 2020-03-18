@@ -1,0 +1,23 @@
+
+.container{
+  display: flex;
+  font-size: 1.7em;
+  background: yellow;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+
+}
+
+.item {
+    background: pink;
+    flex: 1;
+}
+
+
+.item:nth-child(even) {
+    background: cyan;
+}
+
+.item:nth-child(3){
+    flex-shrink: 1;
+}

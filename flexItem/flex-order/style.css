@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    font-size: 1.5em;
+    background: yellow;
+    height: 300px;
+    flex-wrap: wrap;
+
+
+}
+
+.item {
+    background: pink;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+
+}
+
+
+.item:nth-child(even) {
+    background: cyan;
+}
+
+/* .item:first-child{
+    order: -2;
+
+}
+
+.item:nth-child(3){
+    order: -1;
+  
+} */
+
+.disccount {
+    border: 2px solid red;
+    order: -1;
+}

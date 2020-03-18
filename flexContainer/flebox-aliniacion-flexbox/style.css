@@ -1,0 +1,58 @@
+
+body{
+
+    font-size: 4rem;
+}
+
+.flex-container{
+
+    /* display: inline-flex; */
+    display: flex;
+    background: yellow;
+   
+    flex-flow: wrap; /*con este manipulamos el main axis y cross axis */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-around;
+    height: 300px;
+    align-items: flex-end;
+    /* align-items: center;
+    align-items: stretch; */
+    /* align-items: baseline; */ 
+    /* align-items: center; */
+    /* align-content: flex-end; */
+
+    /* align-items  solo alinia los items*/
+    /* align-content  solo alinia los contendio o bloque*/
+
+
+}
+
+.flex-item{
+    border: 1px solid #000;
+    margin:  1rem;
+    /* padding: .5em 1em; */
+    font-size: 20px;
+    /* width: 100px; */
+    /* height: 100px; */
+}
+
+/* .flex-item:nth-child(2){
+    font-size: 100px;
+} */
+
+.flex-container::before{
+    content: '$/';
+}
+
+.flex-container::after{
+    content: '.00';
+}
+.button{
+    background: yellow;
+    display: inline-flex;
+    /* display: flex; */
+    padding: .5em 1em;
+}

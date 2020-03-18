@@ -1,0 +1,21 @@
+
+body{
+
+    font-size: 4rem;
+}
+
+.flex-container{
+
+    display: flex;
+    background: yellow;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row-reverse;
+
+
+}
+
+.flex-item{
+    border: 1px solid #000;
+    margin:  1rem;
+}

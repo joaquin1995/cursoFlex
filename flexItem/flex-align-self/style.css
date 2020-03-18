@@ -1,0 +1,25 @@
+
+.container{
+  display: flex;
+  font-size: 1.7em;
+  background: yellow;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.item {
+    background: pink;
+    height: 100px;
+}
+
+
+.item:nth-child(even) {
+    background: cyan;
+}
+
+.item:nth-child(3){
+    align-self: flex-end;
+}

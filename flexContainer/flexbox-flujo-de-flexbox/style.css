@@ -1,0 +1,39 @@
+
+body{
+
+    font-size: 4rem;
+}
+
+.flex-container{
+
+    /* display: inline-flex; */
+    display: flex;
+    background: yellow;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-flow: row-reverse wrap-reverse; /*con este manipulamos el main axis y cross axis */
+
+
+}
+
+.flex-item{
+    border: 1px solid #000;
+    margin:  1rem;
+    /* padding: .5em 1em; */
+    font-size: 20;
+    width: 100px;
+    height: 100px;
+}
+
+.button{
+    background: yellow;
+    display: inline-flex;
+    /* display: flex; */
+    padding: .5em 1em;
+}

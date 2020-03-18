@@ -1,0 +1,51 @@
+
+.container{
+  display: flex;
+  font-size: 3em;
+  background: yellow;
+  /* flex-wrap: wrap; */
+
+}
+
+
+.item {
+
+    background: pink;
+    /*flex grow indica el factor de crecimiento
+    el navegador divide el espcio disponibre entre la cantidad total
+    entre los factores de crecimeinto y se los asignas
+    a los items*/
+
+    /* flex-grow: 0.5; */
+    width: 300px;
+    flex-shrink: 3;
+    /* flex-shrink: 0; */
+
+}
+
+
+
+
+.item:nth-child(even) {
+    background: cyan;
+}
+
+
+.item:nth-child(3){
+    flex-shrink: 1;
+}
+/* .page {
+    display: flex;
+    height: 100vh;
+    background: yellow;
+}
+
+.aside {
+    width: 200px;
+    background: red;
+}
+
+.main{
+    background: green;
+    flex-grow: 1;
+} */

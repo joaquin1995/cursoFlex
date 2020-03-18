@@ -1,0 +1,72 @@
+/* 
+.container{
+  display: flex;
+  font-size: 3em;
+  background: yellow;
+
+} */
+
+
+.item {
+
+    background: pink;
+    /*flex grow indica el factor de crecimiento
+    el navegador divide el espcio disponibre entre la cantidad total
+    entre los factores de crecimeinto y se los asignas
+    a los items*/
+
+    /* flex-grow: 0.5; */
+    flex-grow: 1;
+
+}
+
+.item:nth-child(3) {
+    flex-grow: 4;
+}
+
+/*Cantidad total de flex-grow:
+1
+1
+4
+1
+1
+= 8
+calcular factor de crecimiento:
+espacio disponible / 8
+
+suponiendo que el espacio disponible 
+sea: 160, 160 / 8 = 20
+
+teniendo el factor de crecimiento, 
+el navegador lo mulstipolica por el valor
+fles-grow en cada caso y lo suma
+
+1*20 = 20
+1*20 = 20
+4*20 = 80
+1*20 = 20
+1*20 = 20
+
+*/
+
+
+
+.item:nth-child(even) {
+    background: cyan;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+    background: yellow;
+}
+
+.aside {
+    width: 200px;
+    background: red;
+}
+
+.main{
+    background: green;
+    flex-grow: 1;
+}

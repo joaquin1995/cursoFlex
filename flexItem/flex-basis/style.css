@@ -1,0 +1,26 @@
+
+.container{
+  display: flex;
+  font-size: 1em;
+  background: yellow;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+
+}
+
+.item {
+    background: pink;
+    /* flex-basis: 0; */
+    /* width: 300px; */
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+.item:nth-child(even) {
+    background: cyan;
+}
+
+.item:nth-child(3){
+    flex-shrink: 1;
+}
