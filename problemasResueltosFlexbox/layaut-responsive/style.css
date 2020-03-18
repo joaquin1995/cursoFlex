@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.content{
+    display: flex;
+    flex:1;
+}
+
+header{
+    background: hsl(340, 100%, 65%);
+    padding: 1em;
+}
+
+main{
+    background: hsl(180, 90%, 65%);
+    flex: 1;
+}
+
+aside{
+    background: hsl(100, 100%, 55%);
+    width: 25%;
+    order: -1;
+}
+
+footer{
+    background: hsl(220, 80%, 50%);
+    padding: 1em;
+}
