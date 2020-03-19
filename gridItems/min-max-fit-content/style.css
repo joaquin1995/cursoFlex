@@ -1,0 +1,16 @@
+.container{
+    font-size: 2em;
+    background: red;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: fit-content(400px) max-content;
+    grid-gap: 1em;
+}
+
+.item{
+    background: yellow;
+}
+
+.item img {
+    width: 200px;
+}

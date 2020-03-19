@@ -1,0 +1,12 @@
+.container{
+    font-size: 2em;
+    background: red;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 1em;
+}
+
+.item{
+    background: yellow;
+}
