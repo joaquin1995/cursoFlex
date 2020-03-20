@@ -1,0 +1,41 @@
+.galerry{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 2px;
+    grid-auto-rows: 100px;
+    grid-auto-flow: row dense;
+}
+
+.galerry img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.galerry img:nth-child(3n){
+    /* grid-column: 3 / span 4;
+    grid-row: 2 / span 2; */
+
+    /* grid-area: grid-row-start / grid-column-start
+    / grid-row-end / grid-column-end; */
+    grid-area:  span 2 / span 3;
+
+}
+
+.galerry img:nth-child(5n){
+    grid-area:  span 2 / span 4;
+
+}
+
+.galerry img:nth-child(8n){
+    grid-area:  span 2 / span 2;
+
+}
+/* 
+.galerry img:nth-child(1){
+
+    grid-column: span 3;
+    grid-row: span 3;
+} */
