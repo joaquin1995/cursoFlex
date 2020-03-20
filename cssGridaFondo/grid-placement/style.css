@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,100px);
+    grid-gap:5px;
+    grid-auto-flow: row dense;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 80px;
+}
+
+.item{
+    background: yellow;
+    border: 1px solid #000;
+    /* height: 100px; */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.item-4{
+    grid-row: span 5;
+}
+
+.item-9{
+    grid-column: span 3;
+}
+
+
+.item-18{
+    grid-area: span 2 / span 3;
+}
