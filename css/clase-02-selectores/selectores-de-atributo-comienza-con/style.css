@@ -1,0 +1,17 @@
+/*Selectores desendientes*/
+
+
+a {
+    /* color: blue; */
+    background: url(icono.jpg)
+    no-repeat center right / 2rem;
+    padding-right: 1.5rem;
+    
+}
+
+[href^='/'],
+[href^='https://ed.team'] {
+
+    color: red;
+    background: none;
+}

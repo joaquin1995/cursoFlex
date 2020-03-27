@@ -1,0 +1,22 @@
+/*clase 1 css*/
+
+/*variables css*/
+
+:root {
+    --color: green;
+
+}
+
+/*aqui termina*/
+
+body {
+
+    background: var(--color);
+    /* color: white; */
+    margin: 10px;
+}
+
+h1 {
+    background: white;
+    color: var(--color);
+}

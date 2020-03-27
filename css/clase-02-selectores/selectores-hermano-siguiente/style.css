@@ -1,0 +1,31 @@
+/*Selectores desendientes*/
+
+:root{
+    --color-title: green;
+    --color-subtile: blue;
+}
+
+.title-1 {
+    color: var(--color-title);
+}
+
+.title-2 {
+    color: var(--color-subtile);
+   ;
+}
+
+
+.subtitle {
+    font-size: .5em;
+    margin-top: -2em;
+}
+
+.title-1 + .subtitle {
+    color: var(--color-title);
+}
+
+.title-2 + .subtitle {
+    color: var(--color-subtile);
+
+}
+

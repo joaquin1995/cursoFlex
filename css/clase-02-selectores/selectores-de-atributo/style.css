@@ -1,0 +1,17 @@
+/*Selectores desendientes*/
+
+
+[type="email"] {
+    border:  1px solid blue;
+}
+
+[type="submit"]{
+    background: red;
+    color: white;
+    border: none;
+}
+
+[required] {
+    border: 2px solid red;
+    margin: .5em;
+}
