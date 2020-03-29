@@ -1,0 +1,20 @@
+/*bordes*/
+
+/*esto se considera una buena practica
+utilizar siempre en el css */
+* ,*::before , *::after {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: red;
+    /* background-clip: padding-box; */
+    /* margin: 100px auto; */
+    margin-top: 100px;
+    margin-right: auto;
+    /* margin-bottom: 100px; */
+    margin-left: auto;
+    border:  140px dotted black;
+}

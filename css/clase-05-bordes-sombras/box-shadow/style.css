@@ -1,0 +1,32 @@
+/*shorthand de bordes*/
+
+/*esto se considera una buena practica
+utilizar siempre en el css */
+* ,*::before , *::after {
+    box-sizing: border-box;
+}
+
+:root{
+    --border-radius-x:60px;
+    --border-radius-y:120px;
+    --border-x:40px;
+    --border-y: 100px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: green;
+    /* border-radius: 50%; */
+    background: hsl(10,90%,50%);
+    margin: 100px auto;
+    box-shadow: 0 8px 10px -3px rgba(0, 0, 8, .5);
+    /* box-shadow: 0 50px 0 yellow inset,
+                0 100px 0  blue inset,
+                0 150px 0  green inset; */
+    /* box-shadow: -10px -10px 20px 0 rgba(0, 0,0, .5) inset; */
+    /* box-shadow:  0 0 0 10px blue,
+                 0 0 0 20px yellow,
+                 0 0 0 30px green; */
+   }
+

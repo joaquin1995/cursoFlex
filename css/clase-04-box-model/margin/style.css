@@ -1,0 +1,66 @@
+/* Margin */
+
+*{
+    box-sizing: border-box;
+}
+
+[class^="box-"]{
+    background: yellow;
+    padding: 50px;
+    width: 50%;
+    /* margin-left: 50%; */
+}
+
+.box-3{ 
+    margin-top: -30px;
+
+}
+
+.box-2{
+    margin-top: 50px;
+}
+
+.container{
+    width: 600px;
+    background: lime;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.item{
+    margin-right: -20px;
+    margin-left: -20px;
+    border: 1px solid red;
+
+}
+
+/* p{
+    clear: both;
+    background: pink;
+} */
+
+.box-1 {
+    margin-top: 50px;  /*margen de arriba*/
+    margin-right: 100px; /*margen de la derrecha*/
+    margin-bottom: 200px; /*margen de abajo*/
+    margin-left: 50px;  /*margen de la izquiera*/
+
+    /* margin: 10px 20px 50px 40px; */
+    /* reemplaza los margin-top,right,bottom,left
+    sigue el sentido de una manija  de reloj*/
+
+    /* margin: 10px 20px 30px; */
+    /* se puede poner 3 valores el cuarto valor sera 
+    puesto por el opuesto es decir el segundo valor 
+    que seria 20px */
+
+    /* margin: 10px 20px; */
+    /* se puede poner 2 valor el tercero sera reemplazo 
+    por el primeo que es 10px y el cuarto por el segundo 
+    valor que es 20px */
+
+    /* margin: 10px; */
+    /* se puede poner 1 valor, los demas tomaran el mismo valor
+    inicial que es 10px */
+}

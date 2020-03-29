@@ -1,0 +1,40 @@
+/*Especificidad  */
+/*El navegador toma encuenta
+la especifidad para aplicar los estilos*/
+
+/* #main .post p {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+div#main .post p {
+    color: blue;
+}
+
+
+body div#main .post p {
+ color: purple;
+} */
+
+.post-description {
+    color: red;
+}
+
+.product-description {
+    color: purple;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.normal {
+    font-size: 1em;
+}
+
+.small {
+    font-size: .75em;
+}

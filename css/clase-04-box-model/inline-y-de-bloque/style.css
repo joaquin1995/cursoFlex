@@ -1,0 +1,19 @@
+/*elementos inline y de bloque */
+
+h1{
+    background: yellow;
+    /* height: 200px; */
+    display: inline;
+}
+
+p{
+    display: inline;
+    background: pink;
+}
+
+span{
+    display: inline-block;
+    background: yellow;
+    height: 100px;
+    width: 200px;
+}

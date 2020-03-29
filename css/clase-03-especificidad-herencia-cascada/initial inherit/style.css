@@ -1,0 +1,37 @@
+/*herencia*/
+body {
+    font-size: 2em;
+}
+
+/*initial*/
+
+/*inherit*/
+
+
+span {
+    font-size: .5em;
+}
+
+p {
+    color: green;
+}
+
+a {
+    color: inherit;
+}
+
+ul{
+    color: red;
+}
+
+li {
+    color: initial;
+}
+
+ul span {
+    font-size: inherit;
+}
+
+.last {
+    color: inherit;
+}

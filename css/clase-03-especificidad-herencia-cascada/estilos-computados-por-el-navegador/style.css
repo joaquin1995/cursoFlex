@@ -1,0 +1,16 @@
+/*cascada  el navegador le hace
+mas caso al ultimo */
+
+
+.post p.post-description {
+    color: purple !important;
+}
+
+p.post-description {
+    color: red !important;
+}
+
+p {
+    color: green !important;
+}
+
