@@ -1,0 +1,16 @@
+/*backgroun-image todo esto aplica solo para imagenes*/
+
+body {
+    background-color: #f0f0f0;
+}
+
+
+.box{
+    width: 400px;
+    height: 300px;
+    background-image: url(https://bbvaopen4u.com/sites/default/files/styles/teaser/public/img/new/bbva-open4u-javascript.jpg?itok=Lh7f8peG);
+    box-shadow: 0 10px 30px -10px #000;
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,18 @@
+/*backgroun-image todo esto aplica solo para imagenes*/
+
+body {
+    background-color: #f0f0f0;
+}
+
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-image: 
+    url(https://ed.team/static/images/logo.svg);
+    background-color: yellow;
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom 20px right 20px;
+}

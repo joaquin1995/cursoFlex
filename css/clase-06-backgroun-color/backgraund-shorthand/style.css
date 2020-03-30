@@ -1,0 +1,29 @@
+/*backgroun-image todo esto aplica solo para imagenes*/
+
+body {
+  
+    height: 100vh;
+    background-image:
+    url(https://ed.team/static/images/logo.svg),
+    url(https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg),
+    url(https://www.caracteristicas.co/wp-content/uploads/2018/09/Tigre-amur-e1537475635318-768x384.jpg);
+    background-size:  25%, 10%, contain;
+    background-repeat: no-repeat;
+    background-position: 0 0, bottom 20px right 20px, center;
+    background-color: yellow;
+
+
+}
+
+
+
+/* .box{
+    width: 500px;
+    height: 500px;
+    background-image: 
+    url(https://ed.team/static/images/logo.svg);
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom 20px right 20px;
+} */

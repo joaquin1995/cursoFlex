@@ -1,0 +1,18 @@
+/*backgroun-image*/
+body {
+    background-color: #f0f0f0;
+}
+
+
+.box{
+    width: 400px;
+    height: 300px;
+    background-image: url(https://bbvaopen4u.com/sites/default/files/styles/teaser/public/img/new/bbva-open4u-javascript.jpg?itok=Lh7f8peG);
+    background-clip: content-box;
+    background-origin: content-box;
+    box-shadow: 0 10px 30px -10px #000;
+    border-radius: 10px;
+    padding: 50px;
+    border: 2px solid black;
+    margin: 100px auto;
+}
