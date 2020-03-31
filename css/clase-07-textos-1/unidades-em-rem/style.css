@@ -1,0 +1,19 @@
+/*em y rem*/
+
+/*em: el tamaño de fuente del contexto*/
+/*rem: el tamaño de fuente de root */
+
+
+html{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 4em;
+}
+
+
+span {
+    font-size: 5rem;
+    color: red;
+}

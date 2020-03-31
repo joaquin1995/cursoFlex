@@ -1,0 +1,11 @@
+/* text-indent */
+
+body{
+
+    font-size: 2em;
+}
+
+p{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}

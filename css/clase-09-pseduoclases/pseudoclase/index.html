@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pseudoclases</h1>
+        <p>
+            Estilos especiales dependiendo del contexto, posicion o estado.
+        </p>
+    </header>
+
+    <main class="Main">
+        <article>
+            <h2>
+                <code>:root</code>
+            </h2>
+            <p>
+                La pseudo-clase de CSS :root selecciona el elemento raiz de un documento.
+                Aplicando a HTML, :root representa el elemento &alt;html&gt;
+                y es identico al selector html, execpto que su nivel de especificidad es mayor.
+                sirve para declarar varibales css.
+            </p>
+        </article>
+
+        <article>
+            <h2>
+                <code>:hover</code>
+            </h2>
+            <p>
+                La pseudo-clase de CSS :hover se presenta cuendo el usuario coloca el puntero
+                sobre algun elemento, pero no necesariamente esta activo. En pantallas touch :hever
+                es problematico.
+            </p>
+        </article>
+
+        <article>
+            <h2>
+                <code>:Active</code>
+            </h2>
+            <p>
+                La pseudo-clase de CSS :active cubre el caso en el que un elemento esta siendo activado
+                por el usuario. cuendo se interactua con el raton, se corresponde al momento en el que el
+                usuario presion el boton del raton hasta que el momento en que lo suelta.
+                A menudo es usado en los elementos &alt;a&gc;y&alt;button&gt;de HTML.
+            </p>
+            <P>
+                El orden si importa:
+            </P>
+            <ul>
+                <li>
+                    <code>:link {...}</code>
+                </li>
+                <li>
+                    <code>:visited {...}</code>
+                </li>
+                <li>
+                    <code>:hover {...}</code>
+                </li>
+                <li>
+                    <code>:active {...}</code>
+                </li>
+
+            </ul>
+        </article>
+
+        <article>
+            <h2>
+                <code>:target</code>
+            </h2>
+            <p>
+                La pseudo-clase de CSS :target representa el elemento unico, si existe alguno,
+                con un id coincidente con el identificador de fragmentos de la URL 
+                del documento.
+            </p>
+
+            <p>
+                <a href="#modal">Modal con css</a>
+            </p>
+        </article>
+        <!-- este es el modal -->
+        <div id="modal" class="Modal">
+            <aside class="Modal-box">
+                <h2>
+                    Hola soy un bonito modal con CSS
+                </h2>
+                <form action="#">
+                    <input type="email" placeholder="email">
+                    <input type="password" placeholder="password">
+                    <input type="submit" value="Enviar">
+                </form>
+                <a href="#">cerrar</a>
+            </aside>
+        </div>
+        <!-- aqui termina el modal -->
+
+        <article>
+            <h2>
+                <code>:nth-child :first-child :last-child</code>
+            </h2>
+            <ul>
+                <li>
+                    <code>nth-child</code>: selecciona el elemento indicaco que sea el 
+                    enesimo hijo de su padre.
+                </li>
+                <li>
+                    <code>first-child</code>: selecciona el elemento indicado que sea el 
+                    primer hijo de su elemento padre.
+                </li>
+                <li>
+                    <code>last-child</code>: selecciona el elemento indicado que sea el 
+                    ultimo hijo de su elemento padre.
+                </li>
+
+            </ul>
+        </article>
+
+        <article>
+            <h2>
+                <code>:nth-of-type :first-of-type :last-of-type</code>
+            </h2>
+            <ul>
+                <li>
+                    <code>nth-of-type</code>: selecciona el elemento indicado que sea
+                    el enesimo hijo de su tipo sin importar la jerarquia dentro del elemento
+                    padre.
+                </li>
+                <li>
+                    <code>first-of-type</code>: selecciona el elemento indicado que sea
+                    el primer hijo de su tipo sin importar la jerarquia dentro del elemento
+                    padre.
+                </li>
+                <li>
+                    <code>last-of-type</code>: selecciona el elemento indicado que sea
+                    el ultimio  hijo de su tipo sin importar la jerarquia dentro del elemento
+                    padre.
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>
+                <code>:not</code>
+            </h2>
+            <p>
+                La pseudo-clase de CSS :not(X), es una notacion funcional que toma
+                un selector simple X como argumento. coincidentecon un elemento que 
+                no esta representado por el argumento. X no debe contener otro
+                selector de negacion.
+            </p>
+        </article>
+        <article>
+            <h2>
+                <code>:empty</code>
+            </h2>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>
+                La pseudo-clase de CSS :empty corresponde a un elemento sin ninguno
+                nodo hijo. solo cuando hay nodos de elemento o texto con uno o mas 
+                carracteristicas dentro del elemento ese se convierte en vacio.
+            </p>
+        </article>
+
+    </main>
+
+
+</body>
+
+</html>

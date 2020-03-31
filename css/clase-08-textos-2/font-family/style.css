@@ -1,0 +1,23 @@
+
+/*
+rem: tamaño de fuente realativo al html(fijo)
+em: tamaño de fuente relativo al contexto(variable)
+*/
+/* 
+:root{
+    font-size: 4rem;
+} */
+
+body{
+    /* font-size: 5em; */
+    /* font-family: 'Times New Roman', Arial, Helvetica, sans-serif; */
+}
+
+
+article{
+    font-size: 6em;
+}
+
+span{
+    font-size: 1em;
+}

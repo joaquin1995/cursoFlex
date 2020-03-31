@@ -1,0 +1,20 @@
+/* text-indent */
+
+body{
+
+    font-size: 2em;
+}
+
+/* p{
+    white-space: pre;
+} */
+
+p {
+    width: 100px;
+    margin: 2em auto;
+    border: 2px solid black;
+    /* word-break: break-all; */
+    /* word-wrap: break-word; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

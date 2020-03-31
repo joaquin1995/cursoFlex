@@ -1,0 +1,10 @@
+/* text-indent */
+
+body{
+
+    font-size: 2em;
+}
+
+p {
+    text-transform: capitalize;
+}

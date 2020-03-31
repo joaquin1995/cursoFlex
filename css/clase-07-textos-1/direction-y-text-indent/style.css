@@ -1,0 +1,13 @@
+/* text-indent */
+
+body{
+    font-size: 2em;
+}
+
+p{
+    margin: 2em;
+    /* direction: ltr; */
+    /* text-indent: 2em; */
+    text-align: justify;
+    text-align-last: right;
+}

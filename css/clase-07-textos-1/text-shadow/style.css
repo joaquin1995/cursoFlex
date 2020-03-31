@@ -1,0 +1,15 @@
+/* text-indent */
+
+body{
+    font-size: 2em;
+}
+
+h1{
+    text-align: center;
+    /* text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: double; */
+    text-decoration: underline  overline;
+    text-decoration-color: black;
+    /* color: transparent; */
+}
