@@ -1,0 +1,22 @@
+/* pseudoElementos */
+
+body {
+    font-size: 1.5em;
+    /* text-align: center; */
+    margin: 1em;
+}
+
+h1{
+    border: 1px solid #000
+}
+
+h1::before{
+    content: url(https://ed.team/static/images/logo.svg);
+    display: block;
+    font-size: .5em;
+    background: hsla(60, 100%, 50%, .3);
+}
+
+h1::after{
+    content: '?';
+}

@@ -1,0 +1,22 @@
+/* pseudoElementos */
+
+body {
+    font-size: 1.5em;
+    /* text-align: center; */
+    margin: 1em;
+}
+
+
+
+h1{
+    quotes:  '\201C' '\201D';
+}
+
+h1::before{
+content:  open-quote;
+}
+
+
+h1::after{
+    content: close-quote;
+}

@@ -1,0 +1,23 @@
+/* pseudoElementos */
+
+body {
+    font-size: 1.5em;
+        margin: 1em;
+}
+
+.usd::before{
+    content: '$ ';
+}
+
+
+.pen::before{
+    content: 'S/ ';
+}
+
+.cop::before {
+    content: '$ ';
+}
+
+.two-decimals::after{
+    content: '.00';
+}

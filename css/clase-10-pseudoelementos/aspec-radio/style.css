@@ -1,0 +1,21 @@
+/* pseudoElementos */
+
+body {
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.box{
+    width: 400px;
+    background: red;
+    /* min-height: 400px; */
+    /* padding-bottom: 100%; */
+}
+
+.box::before{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+

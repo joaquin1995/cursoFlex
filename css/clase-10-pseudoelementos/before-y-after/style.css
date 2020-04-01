@@ -1,0 +1,16 @@
+/* pseudoElementos */
+
+body {
+    font-size: 1.5em;
+    /* text-align: center; */
+    margin: 1em;
+}
+
+
+h1::before{
+    content: '¿';
+}
+
+h1::after{
+    content: '?';
+}

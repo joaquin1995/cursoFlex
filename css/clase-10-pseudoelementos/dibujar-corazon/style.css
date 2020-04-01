@@ -1,0 +1,50 @@
+/* pseudoElementos */
+
+body {
+    font-size: 1.5em;
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.heart{
+    --size: 200px;
+    --color: red;
+    width: var(--size);
+    height: var(--size);
+    background: var(--color);
+    transform: rotate(45deg);
+    animation: beat .5s infinite alternate ease-in-out;
+}
+
+@keyframes beat{
+    to {
+        transform: rotate(45deg) scale(1.05);
+    }
+}
+
+
+
+.heart,
+.heart::before,
+.heart::after{
+    width: var(--size);
+    height: var(--size);
+    background: var(--color);
+}
+
+
+.heart::before,
+.heart::after{
+    content: '';
+    display: block;
+    margin-top: calc(var(--size) * -0.5);
+    border-radius: 50%;
+
+}
+
+.heart::after{
+
+    margin-left: calc(var(--size) * -0.5);
+}

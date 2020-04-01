@@ -1,0 +1,23 @@
+/* pseudoElementos */
+
+body {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 2em;
+}
+
+h1::first-line {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+
+p::first-line {
+    color: red;
+}
+
+
