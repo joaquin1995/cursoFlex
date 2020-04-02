@@ -1,0 +1,28 @@
+/*Estructura de las listas*/
+
+body {
+    font-size: 1em;
+    padding: 1em;
+
+}
+
+li{
+    /* list-style: none; */
+    /* list-style-type: decimal; */
+    /* list-style-image: url(https://f0.pngfuel.com/png/811/919/check-icon-png-clip-art.png); */
+    list-style: none;
+}
+
+li::before{
+    content: '';
+    background: url(https://f0.pngfuel.com/png/811/919/check-icon-png-clip-art.png);
+    background-size: contain;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: .25em;
+}
+
+span {
+    display: list-item;
+}

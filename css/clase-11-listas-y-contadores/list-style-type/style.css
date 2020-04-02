@@ -1,0 +1,16 @@
+/*Estructura de las listas*/
+
+body {
+    font-size: 1em;
+    padding: 1em;
+
+}
+
+li{
+    /* list-style: none; */
+    list-style-type: decimal;
+}
+
+span {
+    display: list-item;
+}

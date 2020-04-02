@@ -1,0 +1,37 @@
+/*Estructura de las listas*/
+
+
+/* :root{
+
+} */
+
+body{
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.temary {
+    counter-reset: classes;
+}
+
+.class{
+    counter-increment: classes;
+    counter-reset: topics;
+}
+
+.class-title::before{
+    content: counter(classes) '. ';
+}
+
+
+.class-topic {
+    counter-increment: topics;
+    padding-left: .5em;
+}
+
+.class-topic::before{
+    content: counter(classes) '.' counter(topics) '. ';
+    color: red;
+    font-size: .75em;
+}
+
