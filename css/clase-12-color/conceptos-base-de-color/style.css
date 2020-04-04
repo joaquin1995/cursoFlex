@@ -1,0 +1,33 @@
+/* Colores */
+
+body{
+   /* color: red; /*para dar color al texto*/
+    /* background-color: yellow; /*Background-color es para dar color de fondo */
+    /* background: rgb(0,0,0); */
+    /* background: rgba(0,0, 0, 0.6); */
+    /* background-color: hsl(0, 100%, 60%); */
+    /* background-color: hsla(10, 50%, 20%, 1) */
+    /* background-image: linear-gradient(red,yellow); */
+    /* background-image: linear-gradient(red 20%, yellow 20%); */
+    /* background-image: linear-gradient(to top left ,red, yellow); */
+    /* background-image: radial-gradient(20px,yellow,red,cyan,purple); */
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    width: 400px;
+    height: 400px;
+    /* margin: 2em auto; */
+    /* background-image: radial-gradient(closest-side,yellow 100%, red 100%); */
+    border-radius: 50%;
+    box-shadow:  0 0 0 2px;
+    background-image: radial-gradient(circle at 50% 25% ,black 5%,transparent 5%),
+    radial-gradient(closest-side circle at 50% 25%, white 100%,transparent 100%), 
+    radial-gradient(circle at 50% 75% ,white 5%,transparent 5%),
+    radial-gradient(closest-side circle at 50% 75%, black 100%,transparent 100%),
+    linear-gradient(to right ,white 50%,black 50%);
+}
