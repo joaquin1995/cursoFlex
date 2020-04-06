@@ -1,0 +1,14 @@
+/*
+    postion: static
+            relative / absolute / fixed / sticky
+
+    offset properties:
+            top / right /botton / left
+    
+    un elemento posicionado tiene una referencia (contexto)
+
+    relative: su referencia es su poscicion actual
+    obsolute: se referencia es su ancestro posicionado 
+    mas cercano.
+
+*/

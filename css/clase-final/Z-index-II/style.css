@@ -1,0 +1,44 @@
+/**/
+
+:roor{
+    --z-back : -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-moda: 1000;
+}
+
+.dad {
+    width: 500px;
+    height: 500px;
+    background-color: hsla(60, 100%, 50%, .5);
+    position: relative;
+}
+
+.son{
+
+    --size:100px;
+    width: var(--size);
+    height: var(--size);
+    text-align: center;
+    font-size: 3rem;
+    line-height: var(--size);
+    position: absolute;
+}
+
+.son:first-child{
+    background-color: hsla(300, 100%, 50%, .5);
+    z-index: var(--z-back);
+}
+
+.son:nth-child(2){
+    background-color: hsla(220, 100%,50%, .5);
+    top: 75px;
+    left: 75px;
+}
+
+.son:last-child{
+    background-color: hsla(100, 100%, 50%, .5);
+    top: 150px;
+    left: 150px;
+}

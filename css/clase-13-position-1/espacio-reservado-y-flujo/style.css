@@ -1,0 +1,27 @@
+/* position 1 */
+
+
+h1{
+    /* display: none; */
+    /* opacity: 0; */
+}
+
+
+.p1{
+    color: red;
+    /* margin-top: 5em; */
+    float: left;
+    width: 50%;
+}
+
+.p2{
+    color: green;
+    float: right;
+    width: 50%;
+    /* margin-top: -8em; */
+}
+
+.p3{
+    color: blue;
+    /* margin-top: 4em; */
+}

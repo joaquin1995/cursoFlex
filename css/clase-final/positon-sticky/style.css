@@ -1,0 +1,14 @@
+/**/
+:root{
+--color:0;
+}
+
+body{
+font-size: 1.5em;
+}
+
+h2{
+position: sticky;
+top: 10px;
+background-color: #fff;
+}

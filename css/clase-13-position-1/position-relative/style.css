@@ -1,0 +1,40 @@
+/* position 1 */
+
+
+h1{
+    /* position: relative; */
+    border-top: 1px solid #000;
+    /* top: 20px; */
+    position: relative;
+    top: .5em;
+}
+
+
+.p1{
+    position:  relative;
+    color: red;
+    top: 4.5em;
+
+}
+
+.p2{
+    color: green;
+    position: relative;
+    top: -4.5em;
+}
+
+.p3{
+    color: blue;
+}
+
+/*
+posticion: relative
+
+    * su referencia es su posicion inicial
+    * aplicar position: relative o un elemento
+    no modifica en nada su layaut
+    * al moverlo, con las porpiedades offset se,
+    reserva su espacio
+
+
+*/

@@ -1,0 +1,38 @@
+/* position 1 */
+
+
+h1{
+    position: relative;
+    border-top: 1px solid #000;
+    top: 20px;
+}
+
+
+.p1{
+    color: red;
+
+}
+
+.p2{
+    color: green;
+
+}
+
+.p3{
+    color: blue;
+}
+
+/*
+posticion: stattic ! relative ! obsolute
+           fixed    ! sticky
+
+propiedades offset
+    mueven un elemento posicionado
+    segun el borde indicado
+
+    * top
+    * right
+    * left
+    * bottom
+
+*/
