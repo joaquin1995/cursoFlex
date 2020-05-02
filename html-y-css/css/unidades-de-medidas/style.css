@@ -1,0 +1,20 @@
+body{
+    font-size: 20px;
+}
+
+
+p{
+    font-size: 2em;
+}
+
+
+.padre{
+    font-size: 1.25em;
+}
+
+.hijo{
+    width: 10em;
+    height: 10em;
+    background-color: black;
+    color: white;
+}

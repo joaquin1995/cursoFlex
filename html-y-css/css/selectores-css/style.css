@@ -1,0 +1,35 @@
+
+/*Selector universal*/
+
+*{
+    color: red;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: black;
+}
+
+p {
+    font-size: 30px;
+}
+
+div p {
+    font-size: 15;
+    color: blue;
+}
+
+div article p {
+    font-size: 10;
+    color: brown;
+}
+
+p a {
+    color: black ;
+}
+
+
+.rojo {
+    font-size: 25px;
+    color: cadetblue;
+}

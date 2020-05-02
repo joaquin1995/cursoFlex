@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #f2f2f2;
+}
+
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: #0e6ba8;
+    margin: 20px;
+}
+
+/* .padre{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    background-color: #2e294e;
+} */
+
+.posicionada{
+    background-color: #6695e8;
+    position: relative;
+    /* absolute fixed float relative*/
+    /* top: ;
+    right: ; */
+    left: 200px;
+    bottom: 50px;
+}

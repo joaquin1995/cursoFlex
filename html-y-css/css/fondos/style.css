@@ -1,0 +1,13 @@
+/* Fondos */
+
+
+body{
+    /* height: 100vh; */
+    background-image: url('imagenes/alexander-popov-2XKAUkbq218-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background-position-x: center;
+    background-position-y: center; */
+    /* background-image:; */
+}

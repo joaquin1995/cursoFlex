@@ -1,0 +1,26 @@
+a {
+    font-size: 20px;
+    /* text-decoration: none; */
+    color: brown;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+
+a:link{
+    /* background-color: chocolate; */
+    text-decoration: none;
+    color: blueviolet;
+    /* background-color: ; */
+}
+
+a:visited{
+    color: red;
+}
+
+a:active{
+    text-decoration: underline;
+    background-color: darkblue;
+}
